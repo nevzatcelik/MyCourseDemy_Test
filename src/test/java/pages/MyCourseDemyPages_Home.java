@@ -1,13 +1,11 @@
 package pages;
 
 import utilities.Driver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class MyCourseDemyPages {
+public class MyCourseDemyPages_Home {
 
-  public  MyCourseDemyPages(){
+  public MyCourseDemyPages_Home(){
       PageFactory.initElements(Driver.getDriver(),this);
     }
 
