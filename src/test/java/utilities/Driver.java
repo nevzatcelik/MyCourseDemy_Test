@@ -1,5 +1,6 @@
 package utilities;
 
+import dev.failsafe.internal.util.Durations;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -16,6 +17,7 @@ public class Driver {
     static WebDriver driver;
 
     public static WebDriver getDriver(){
+
         if(driver==null) {
             switch (utilities.ConfigReader.getProperty("browser")) {
                 case "chrome":
