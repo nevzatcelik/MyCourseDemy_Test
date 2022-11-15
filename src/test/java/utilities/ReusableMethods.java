@@ -34,6 +34,7 @@ public class ReusableMethods {
 
         File tumSayfaSShot= new File("target/ScreenShot/tumSayfaScrenshot"+ldt.format(dtf)+".jpeg");
 
+
         // 3- screenshot objesi kullanarak fotografi cekip, gecici dosyaya kaydet
         File geciciResim= tss.getScreenshotAs(OutputType.FILE);
         // 4- gecici dosyayi hazirladigim file'a kopyalayalim
